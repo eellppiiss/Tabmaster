@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Управление вкладками</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Tab.Master</h1>
+  </header>
+
+  <main>
+
+    <div class="add">
+      <button id="openTab">Открыть новую вкладку <img src="icons/add.svg" alt=""></button>
+
+      <div class="tabs_new">     
+        <button id="addToBlock2">Добавить в Режим отдыха</button>
+        <button id="addToBlock1">Добавить в Режим работы</button>
+      </div>
+    </div>
+
+    <div class="block_list" id="blockList1">
+
+      <div class="name_block" id="toggleBlock1">
+        <h2>Режим отдыха</h2>
+        <img src="icons/down_arrow.png" alt="">
+      </div>
+
+      <ul id="tabsList1" style="display: none;"></ul>
+    </div>
+
+
+
+    <div class="block_list" id="blockList2">
+
+      <div class="name_block" id="toggleBlock2">
+        <h2>Режим работы</h2>
+        <img src="icons/down_arrow.png" alt="">
+      </div>
+      
+      <ul id="tabsList2"  style="display: none;"></ul>
+    </div>
+
+
+
+
+  </main>
+
+  <footer>
+    <p>©Н.Е. Лискова 2024</p>
+  </footer>
+  <script src="js/popup.js"></script>
+</body>
+
+</html>

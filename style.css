@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    width: 350px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #72bbff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a4d3ff;
+    border-radius: 20px;
+    border: 3px solid #c2c2c2;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+main .add {
+    margin: 0 auto;
+    max-width: 230px;
+}
+
+main #openTab {
+    border: none;
+    background-color: #cae5ff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+main #openTab:hover {
+    background-color: #a4d3ff;
+    cursor: pointer;
+}
+
+main #openTab img {
+    width: 15px;
+    height: auto;
+}
+
+
+.tabs_new {
+    display: flex;
+    gap: 10px;
+}
+
+.tabs_new button {
+    background-color: #cae5ff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.tabs_new button:hover {
+    background-color: #a4d3ff;
+    cursor: pointer;
+}
+
+
+
+
+.name_block {
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 0px 0px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.name_block img {
+    width: 20px;
+    height: auto;
+}
+
+
+main .block_list {
+    background-color: #dfefff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+main .block_list ul li {
+    padding: 10px 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+
+
+
+main .block_list ul li:hover {
+    background-color: #97abbe;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+main .block_list ul li:hover a {
+    opacity: 1;
+}
+
+main .block_list ul li .name_web {
+    display: flex;
+    gap: 20px;
+}
+
+main .block_list ul li a {
+    padding: 2px 5px;
+    border-radius: 100px;
+    opacity: 0;
+}
+main .block_list ul li a:hover {
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+main .block_list .button_li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+main .block_list .button_li a img  {
+    width: 15px;
+}
+
